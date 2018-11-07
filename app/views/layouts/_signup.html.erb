@@ -1,0 +1,23 @@
+<div class="row signup_block text-center">
+	<h1>Sign up</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<%= form_for(@user) do |f| %>
+						<div class="col-md-12">
+							<%= f.email_field :email, placeholder: "Enter your email address", class: "form-control"%>
+						</div>
+						<div class="col-md-12">
+							<%= f.password_field :password, placeholder: "Enter your password", class: "form-control"%>
+						</div>
+						<div class="col-md-12">
+							<%= f.password_field :password_confirmation , placeholder: "Re-Enter your password to confirm", class: "form-control"%>
+						</div>
+						<div class="col-md-12">
+							<%= f.submit "Create my account", class: "btn btn-primary" %>
+						</div>
+					<% end %>
+				</div>
+			</div>
+		</div>
+</div>

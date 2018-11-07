@@ -1,0 +1,10 @@
+.signup_block{
+	background-image: url("signup-background.jpg");
+	min-height: 690px;
+	padding-top: 150px;
+}
+.form-control{
+	width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
