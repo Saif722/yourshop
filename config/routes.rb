@@ -53,4 +53,9 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  get 'create_shop' => 'shops#new'
+  get 'create_user' => 'users#new'
+  resources :users
+  resources :shops
+
 end
