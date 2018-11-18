@@ -4,5 +4,8 @@ class ShopsController < ApplicationController
 		@shop= Shop.new
 	end
 
-end
+	def index
+		
+	end
 
+end
